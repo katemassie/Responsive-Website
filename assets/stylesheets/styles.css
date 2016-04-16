@@ -69,7 +69,7 @@ h2 {
   width: 90%;
   border: 1px solid black;
   padding: 5px;
-  box-shadow: 10px 10px 100px red;
+  box-shadow: 4px 4px 10px #7f7f7f;
 }
 
 p {
@@ -107,15 +107,14 @@ hr {
   border: 3px solid black;
 }
 
+
 .profile-section p,
 .skills-section p,
 .contact-section p,
 .skills-section li,
-.contact-section p a {
+.contact-section a {
   color: #7f7f7f;
 }
-
-/*---------- Mobile ----------*/
 
 .entry {
   text-align: center;
@@ -139,6 +138,10 @@ hr {
   background-color: #fafafa;
 }
 
+
+/*---------- Mobile ----------*/
+
+
 #header a {
   display: block;
   padding-top: 25px;
@@ -158,13 +161,17 @@ hr {
   padding-bottom: 25px;
 }
 
+#header a:last-child {
+  margin-bottom: 0;
+}
+
 .profile-section {
   padding: 50px 35px;
 }
 
 .profile-section img {
-  margin: 20px 0 25px 25px;
-  width: 100%;
+  margin: 25px;
+  width: 90%;
 }
 
 .entry h2 {
@@ -261,7 +268,7 @@ footer .contact {
   .profile-section p,
   .profile-section img {
     display: inline-block;
-    width: 48%;
+    width: 45%;
   }
 
   .profile-section img {
@@ -279,7 +286,6 @@ footer .contact {
   }
 
   .flexbox {
-    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
   }
@@ -307,7 +313,6 @@ footer .contact {
 
   .name {
     float: left;
-    margin: 50 0 0 50;
   }
 
   header ul {
