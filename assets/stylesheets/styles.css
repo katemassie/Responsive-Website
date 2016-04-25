@@ -285,10 +285,18 @@ footer .contact {
     clear: both;
   }
 
+/*********************/
   .flexbox {
     display: flex;
     flex-wrap: wrap;
   }
+/********************/
+/* Code outlined above came from http://learnlayout.com/flexbox.html, 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/,
+http://www.w3schools.com/css/css3_flexbox.asp
+Referenced April 15, 2016 */
+
+
 
   .example {
     width: 50%;
