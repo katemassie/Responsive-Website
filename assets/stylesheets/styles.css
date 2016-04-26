@@ -83,13 +83,17 @@ h3 {
   padding-bottom: 50px;
 }
 
-
+/********************/
 hr {
   margin: 0 auto;
   width: 95%;
   background-color: #fafafa;
   border: 1px solid #e7e7e7;
   }
+/********************/
+/* Code between the markers above adapted from anil rahman's answer to 
+question https://teamtreehouse.com/community/how-to-style-hr, April 2016.
+Margin added, width and background color changed, border styled. */
 
 .bold {
   font-weight: bold;
@@ -161,9 +165,14 @@ hr {
   padding-bottom: 25px;
 }
 
+/********************/
 #header a:last-child {
   margin-bottom: 0;
 }
+/********************/
+/* Code between the markers above suggested by megm in Slack channel 
+https://treehouse-fewd-td.slack.com/messages/project-02/ on April 15, 2016.*/
+
 
 .profile-section {
   padding: 50px 35px;
